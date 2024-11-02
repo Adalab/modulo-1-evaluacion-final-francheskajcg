@@ -1,1 +1,3 @@
-# Mi proyecto
+# Ejercicio
+
+Descripción del proyecto
