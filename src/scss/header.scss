@@ -1,0 +1,35 @@
+.header {
+    background-image: url('../images/cover.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header_menu {
+    background-color: #0271bc;
+    padding: 10px;
+    position: fixed;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300.3px;
+
+}
+
+.header_title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.header_subtitle {
+    font-size: 16px;
+    padding-top: 1rem;
+
+}
