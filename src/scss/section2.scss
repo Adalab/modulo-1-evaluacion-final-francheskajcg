@@ -1,0 +1,39 @@
+.section2 {
+    background-color: #eff9ff;
+    text-align: center;
+    line-height: 1.67;
+
+    &_box {
+        margin-left: 63px;
+        margin-right: 63px;
+    }
+
+    &_title {
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 29px;
+
+    }
+
+    &_subtitle {
+        font-size: 18px;
+        margin-top: 3rem;
+    }
+
+    &_paragraph {
+        font-size: 18px;
+
+    }
+
+    &_btn {
+        width: 184px;
+        height: 45px;
+        border-radius: 22.5px;
+        background-color: #f26002;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-bottom: 60px;
+    }
+}
