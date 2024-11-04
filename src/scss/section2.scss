@@ -4,8 +4,24 @@
     line-height: 1.67;
 
     &_box {
-        margin-left: 63px;
-        margin-right: 63px;
+
+        margin-left: 68px;
+        margin-right: 68px;
+
+        @media (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    }
+
+    &_reason {
+
+        @media (min-width:768px) {
+            text-align: center;
+            padding: 20px;
+        }
+
     }
 
     &_title {
@@ -13,6 +29,9 @@
         font-weight: bold;
         padding-top: 29px;
 
+        @media (min-width:768px) {
+            grid-column: span 3;
+        }
     }
 
     &_subtitle {
@@ -35,5 +54,14 @@
         font-size: 20px;
         margin-top: 3rem;
         margin-bottom: 60px;
+
+        @media (min-width:768px) {
+            grid-column: 1 / 3;
+        }
+
+
     }
+
+
+
 }
