@@ -3,8 +3,11 @@
     text-align: center;
     line-height: 1.67;
 
-    &_box {
+    @media (min-width:1280px) {
+        padding-inline: 17px;
+    }
 
+    &_box {
         margin-left: 68px;
         margin-right: 68px;
 
@@ -19,9 +22,7 @@
 
         @media (min-width:768px) {
             text-align: center;
-
         }
-
     }
 
     &_title {
@@ -34,6 +35,10 @@
         @media (min-width:768px) {
             grid-column: span 3;
             font-size: 26px;
+        }
+
+        @media (min-width:1280px) {
+            font-size: 32px;
         }
     }
 
@@ -55,7 +60,6 @@
         @media (min-width:768px) {
             font-size: 20px;
         }
-
     }
 
     &_btn {
@@ -69,9 +73,8 @@
         margin-top: 4rem;
         margin-bottom: 60px;
 
-
+        @media (min-width:1280px) {
+            width: 255px;
+        }
     }
-
-
-
 }
