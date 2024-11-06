@@ -7,25 +7,7 @@
         padding-inline: 17px;
     }
 
-    &_box {
-        margin-left: 68px;
-        margin-right: 68px;
-
-        @media (min-width:768px) {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-    }
-
-    &_reason {
-
-        @media (min-width:768px) {
-            text-align: center;
-        }
-    }
-
-    &_title {
+    &__title {
         font-size: 24px;
         font-family: "Roboto Slab", serif;
         font-optical-sizing: auto;
@@ -42,7 +24,25 @@
         }
     }
 
-    &_subtitle {
+    &__box {
+        margin-left: 68px;
+        margin-right: 68px;
+
+        @media (min-width:768px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    }
+
+    &__reason {
+
+        @media (min-width:768px) {
+            text-align: center;
+        }
+    }
+
+    &__subtitle {
         font-size: 18px;
         margin-top: 3rem;
         font-family: "Roboto Slab", serif;
@@ -54,7 +54,7 @@
         }
     }
 
-    &_paragraph {
+    &__paragraph {
         font-size: 18px;
 
         @media (min-width:768px) {
@@ -62,7 +62,7 @@
         }
     }
 
-    &_btn {
+    &__btn {
         width: 184px;
         height: 45px;
         border-radius: 22.5px;
