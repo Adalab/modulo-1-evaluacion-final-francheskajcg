@@ -19,21 +19,35 @@
         align-items: center;
         justify-content: flex-end;
         align-items: center;
-        /* padding-top: 50vh; */
         min-height: 100vh;
 
     }
 
     &_title {
         text-transform: uppercase;
-        font-family: roboto slab, serif;
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
         font-size: 42px;
         text-align: center;
-        line-height: 55px;
+
+
+        @media (min-width:768px) {
+            font-size: 80px;
+            line-height: 1.50;
+        }
+
+        @media (min-width:1280px) {
+            font-size: 95px;
+        }
     }
 
     &_subtitle {
         padding-top: 1rem;
+
+        @media (min-width:768px) {
+            font-size: 24px;
+        }
 
     }
 }
@@ -45,4 +59,5 @@
     border-radius: 50%;
     background-color: white;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
